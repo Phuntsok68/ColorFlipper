@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #669bbc;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+  padding: 10px;
+}
+h2 {
+  border: 1px solid black;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+h2:hover {
+  background-color: #343a40;
+  color: #ced4da;
+  border-style: none;
+}
+.background {
+  background-color: #343a40;
+  color: #ced4da;
+  border-radius: 5px;
+  position: absolute; /*position absolute is used to avoid elements movements when the hover is on */
+  top: 170px;
+}
+span {
+  color: #669bbc;
+  /* background-color: transparent; */
+}
